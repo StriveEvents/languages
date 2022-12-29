@@ -49,8 +49,8 @@ commands:
       SPECTATOR: 'Espectador'
     success:
       self: '{prefix}&fTu modo de juego ha cambiado a &a{mode}&7.'
-      other: '{prefix}&fHas cambiado el modo de juego de &e{player} a &a{mode}&7.'    
-      all: '{prefix}&fHas cambiado el modo de juego de &etodos a &a{mode}&7.'    
+      other: '{prefix}&fHas cambiado el modo de juego de &e{player}&7 a &a{mode}&7.'    
+      all: '{prefix}&fHas cambiado el modo de juego de &etodos&7 a &a{mode}&7.'    
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    

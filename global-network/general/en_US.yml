@@ -48,8 +48,8 @@ commands:
       SPECTATOR: 'Spectator'
     success:
       self: '{prefix}&fYour gamemode has been updated to &a{mode}&7.'
-      other: '{prefix}&fYou has been update the gamemode of &e{player} to &a{mode}&7.'
-      all: '{prefix}&fYou has been update the gamemode of &eall to &a{mode}&7.'
+      other: '{prefix}&fYou has been update the gamemode of &e{player}&7 to &a{mode}&7.'
+      all: '{prefix}&fYou has been update the gamemode of &eall&7 to &a{mode}&7.'
 
 items:
   cooldown: '{prefix}&cYou need to wait <time> seconds!'
