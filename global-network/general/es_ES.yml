@@ -40,7 +40,17 @@ commands:
       &7 /core worlds toggle <mundo> <módulo>.
       &7 /core worlds reset <mundo>.
   open:
-    help: '&7/core open <menu> - &eAbre menú del core.'    
+    help: '&7/core open <menu> - &eAbre menú del core.'
+  gamemode:
+    modes:
+      CREATIVE: 'Creativo'
+      SURVIVAL: 'Supervivencia'
+      ADVENTURE: 'Aventura'
+      SPECTATOR: 'Espectador'
+    success:
+      self: '{prefix}&fTu modo de juego ha cambiado a &a{mode}&7.'
+      other: '{prefix}&fHas cambiado el modo de juego de &e{player} a &a{mode}&7.'    
+      all: '{prefix}&fHas cambiado el modo de juego de &etodos a &a{mode}&7.'    
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    

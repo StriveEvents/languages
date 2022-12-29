@@ -40,6 +40,16 @@ commands:
   fly:
     activated: '{prefix}&fYour flight mode has been &aactivated&f.'
     deactivated: '{prefix}&fYour flight mode has been &cdeactivated&f.'    
+  gamemode:
+    modes:
+      CREATIVE: 'Creative'
+      SURVIVAL: 'Survival'
+      ADVENTURE: 'Adventure'
+      SPECTATOR: 'Spectator'
+    success:
+      self: '{prefix}&fYour gamemode has been updated to &a{mode}&7.'
+      other: '{prefix}&fYou has been update the gamemode of &e{player} to &a{mode}&7.'
+      all: '{prefix}&fYou has been update the gamemode of &eall to &a{mode}&7.'
 
 items:
   cooldown: '{prefix}&cYou need to wait <time> seconds!'
