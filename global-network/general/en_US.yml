@@ -38,8 +38,8 @@ commands:
   open:
     help: '&7/core open <menu> - &eOpen core menu.'
   fly:
-    activated: '{prefix}&fYour flight mode has been &aactivated&f.'
-    deactivated: '{prefix}&fYour flight mode has been &cdeactivated&f.'    
+    activated: '{prefix}&7Your flight mode has been &aactivated&7.'
+    deactivated: '{prefix}&7Your flight mode has been &cdeactivated&7.'    
   gamemode:
     modes:
       CREATIVE: 'Creative'
@@ -47,9 +47,9 @@ commands:
       ADVENTURE: 'Adventure'
       SPECTATOR: 'Spectator'
     success:
-      self: '{prefix}&fYour gamemode has been updated to &a{mode}&7.'
-      other: '{prefix}&fYou has been update the gamemode of &e{player}&7 to &a{mode}&7.'
-      all: '{prefix}&fYou has been update the gamemode of &eall&7 to &a{mode}&7.'
+      self: '{prefix}&7Your gamemode has been updated to &a{mode}&7.'
+      other: '{prefix}&7You has been update the gamemode of &e{player}&7 to &a{mode}&7.'
+      all: '{prefix}&7You has been update the gamemode of &eall&7 to &a{mode}&7.'
 
 items:
   cooldown: '{prefix}&cYou need to wait <time> seconds!'
