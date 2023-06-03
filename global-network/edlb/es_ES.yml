@@ -1,0 +1,30 @@
+event: '&5&lEvento&8» '
+messages:
+  player:
+    tp-to-game: '&5&lEvento&8» &a¡Has sido teletransportado al juego! Comienza a correr.'
+  beasts:
+    death:
+      one: '&5&lEvento&8» &aLa bestia ha muerto.'
+      more: '&5&lEvento&8» &aUna bestia ha muerto.'
+    tp-to-jail: '&5&lEvento&8» &a¡Has sido teletransportado a tu cárcel! Espera a que el tiempo de ventaja termine y comienza a cazar.'
+    tp-to-game: '&5&lEvento&8» &a¡Has sido teletransportado al juego! Comienza a cazar.'
+  broadcasts:
+    beasts-unjail:
+      one: '&5&lEvento&8»¡La bestia ha sido liberada! ¡Corre por tu vida!'
+      more: '&5&lEvento&8»¡Las bestias han sido liberadas! ¡Corre por tu vida!'
+    finish:
+      beasts: 
+        one: '&5&lEvento&8» &cLos jugadores han muerto, ¡la bestia ha ganado!'
+        more: '&5&lEvento&8» &cLos jugadores han muerto, ¡las bestias han ganado!'
+      players:
+        one: '&5&lEvento&8» &aLa bestia ha perdido, ¡los corredores han ganado!'
+        more: '&5&lEvento&8» &aLas bestias han perdido, ¡los corredores han ganado!'
+  title:
+    player:
+      start: '&e&l¡Corre!\n&7Tienes %s segundos de ventaja.'
+      unjail: 
+        one: '&c&l¡Oh no!\n&7La bestia ha sido liberada.'
+        more: '&c&l¡Oh no!\n&7Las bestias han sido liberada.'
+      death:
+        one: '&c¡Atención!\n&7La bestia ha muerto.'
+        more: '&c¡Atención!\n&7Una de las bestias ha muerto.'
