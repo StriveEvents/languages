@@ -1,24 +1,24 @@
-event: '&5&lEvent&8» '
+event: '&5&lEvent&8 » '
 messages:
   player:
-    tp-to-game: '&5&lEvent&8» &aYou have been teleported into the game! Start running.'
+    tp-to-game: '&5&lEvent&8 » &aYou have been teleported into the game! Start running.'
   beasts:
     death:
-      one: '&5&lEvent&8» &aThe beast is dead.'
-      more: '&5&lEvent&8» &aA beast has died.'
-    tp-to-jail: '&5&lEvent&8» &aYou have been teleported to your jail! Wait for the lead time to end and start hunting.'
-    tp-to-game: '&5&lEvent&8» &aYou have been teleported to the game! Start hunting.'
+      one: '&5&lEvent&8 » &aThe beast is dead.'
+      more: '&5&lEvent&8 » &aA beast has died.'
+    tp-to-jail: '&5&lEvent&8 » &aYou have been teleported to your jail! Wait for the lead time to end and start hunting.'
+    tp-to-game: '&5&lEvent&8 » &aYou have been teleported to the game! Start hunting.'
   broadcasts:
     beasts-unjail:
-      one: '&5&lEvent&8»The beast has been released! Run for your life!'
-      more: '&5&lEvent&8»The beasts have been unleashed! Run for your life!'
+      one: '&5&lEvent&8 »The beast has been released! Run for your life!'
+      more: '&5&lEvent&8 »The beasts have been unleashed! Run for your life!'
     finish:
       beasts: 
-        one: '&5&lEvent&8» &cThe players are dead, the beast has won!'
-        more: '&5&lEvent&8» &cThe players have died, the beasts have won!'
+        one: '&5&lEvent&8 » &cThe players are dead, the beast has won!'
+        more: '&5&lEvent&8 » &cThe players have died, the beasts have won!'
       players:
-        one: '&5&lEvent&8» &aThe beast has lost, the racers have won!'
-        more: '&5&lEvent&8» &aThe beasts have lost, the racers have won!'
+        one: '&5&lEvent&8 » &aThe beast has lost, the racers have won!'
+        more: '&5&lEvent&8 » &aThe beasts have lost, the racers have won!'
   title:
     player:
       start: '&e&lRun!\n&7You have %s seconds lead.'
