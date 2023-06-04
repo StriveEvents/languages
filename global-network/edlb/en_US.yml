@@ -1,4 +1,5 @@
 event: '&5&lEvent&8 » '
+dead: '&cYou''re dead.' 
 messages:
   player:
     tp-to-game: '&5&lEvent&8 » &aYou have been teleported into the game! Start running.'

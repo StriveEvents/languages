@@ -1,4 +1,5 @@
 event: '&5&lEvento&8 » '
+dead: '&cEstás muerto.'
 messages:
   player:
     tp-to-game: '&5&lEvento&8 » &a¡Has sido teletransportado al juego! Comienza a correr.'
