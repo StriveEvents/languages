@@ -29,3 +29,18 @@ messages:
       death:
         one: '&cAttention!\n&7The beast has been killed.'
         more: '&c&cAttention!\n&7One of the beasts has died.'
+  items:
+    checkpoint:
+      no-checkpoints: '&cYou have no more checkpoints.'
+      place: |-
+        &eYou have set a checkpoint. You have %s left!
+        &eRight click in the air with the beacon to go to your last checkpoint.
+      is-null: '&cPut the beacon on the ground to apply a checkpoint!'
+      teleported: '&aYou have teleported to your last checkpoint!'
+    hider:
+      visible: '&aYou have revealed the other players!'
+      invisible: '&7You have hidden from other players!'
+items:
+  hider:
+    visible: '&aVisible'
+    invisible: '&7Invisible        
