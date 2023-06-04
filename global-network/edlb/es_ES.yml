@@ -2,7 +2,7 @@ event: '&5&lEvento&8 » '
 dead: '&cEstás muerto.'
 messages:
   player:
-    death: '&5&lEvento&8 » &a%s fue asesinado por %s.'
+    death: '&5&lEvento&8 » &e%s &7fue asesinado por &c%s. &7Quedan &b%games_players%&7 jugadores restantes.'
     tp-to-game: '&5&lEvento&8 » &a¡Has sido teletransportado al juego! Comienza a correr.'
   beasts:
     death:
@@ -12,8 +12,8 @@ messages:
     tp-to-game: '&5&lEvento&8 » &a¡Has sido teletransportado al juego! Comienza a cazar.'
   broadcasts:
     beasts-unjail:
-      one: '&5&lEvento&8 »¡La bestia ha sido liberada! ¡Corre por tu vida!'
-      more: '&5&lEvento&8 »¡Las bestias han sido liberadas! ¡Corre por tu vida!'
+      one: '&5&lEvento&8 » &8¡La bestia ha sido liberada! ¡Corre por tu vida!'
+      more: '&5&lEvento&8 » &8¡Las bestias han sido liberadas! ¡Corre por tu vida!'
     finish:
       beasts: 
         one: '&5&lEvento&8 » &cLos jugadores han muerto, ¡la bestia ha ganado!'
