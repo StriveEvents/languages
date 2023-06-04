@@ -33,7 +33,7 @@ messages:
   items:
     checkpoint:
       no-checkpoints: '&cYa no tienes más checkpoints.'
-      place: |-
+      placed: |-
         &eHas puesto un checkpoint. Te quedan %s!
         &eHaz click derecho en el aire con el beacon para ir a tu último checkpoint.
       is-null: '&cPon el beacon en el suelo para aplicar un checkpoint!'
