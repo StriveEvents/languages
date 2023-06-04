@@ -39,8 +39,8 @@ messages:
       is-null: '&cPut the beacon on the ground to apply a checkpoint!'
       teleported: '&aYou have teleported to your last checkpoint!'
     hider:
-      visible: '&aYou have revealed the other players!'
-      invisible: '&7You have hidden from other players!'
+      visible: '&aNow you will see all the players.'
+      invisible: '&7Now you will not be able to see the other players.'
 items:
   hider:
     visible: '&aVisible'
