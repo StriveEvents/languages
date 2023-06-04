@@ -2,11 +2,12 @@ event: '&5&lEvento&8 » '
 dead: '&cEstás muerto.'
 messages:
   player:
+    death: '&5&lEvento&8 » &a%s fue asesinado por %s.'
     tp-to-game: '&5&lEvento&8 » &a¡Has sido teletransportado al juego! Comienza a correr.'
   beasts:
     death:
-      one: '&5&lEvento&8 » &aLa bestia ha muerto.'
-      more: '&5&lEvento&8 » &aUna bestia ha muerto.'
+      one: '&5&lEvento&8 » &aLa bestia ha muerto por %s.'
+      more: '&5&lEvento&8 » &aUna bestia ha muerto por %s.'
     tp-to-jail: '&5&lEvento&8 » &a¡Has sido teletransportado a tu cárcel! Espera a que el tiempo de ventaja termine y comienza a cazar.'
     tp-to-game: '&5&lEvento&8 » &a¡Has sido teletransportado al juego! Comienza a cazar.'
   broadcasts:
