@@ -6,8 +6,8 @@ messages:
     tp-to-game: '&5&lEvent&8 » &aYou have been teleported into the game! Start running.'
   beasts:
     death:
-      one: '&5&lEvent&8 » &aThe beast is dead by %s.'
-      more: '&5&lEvent&8 » &aA beast has died by %s.'
+      one: '&5&lEvent&8 » &aThe beast %s is dead by %s.'
+      more: '&5&lEvent&8 » &aA beast (%s) has died by %s.'
     tp-to-jail: '&5&lEvent&8 » &aYou have been teleported to your jail! Wait for the lead time to end and start hunting.'
     tp-to-game: '&5&lEvent&8 » &aYou have been teleported to the game! Start hunting.'
   broadcasts:
