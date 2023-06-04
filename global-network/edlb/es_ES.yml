@@ -26,7 +26,7 @@ messages:
       start: '&e&l¡Corre!\n&7Tienes %s segundos de ventaja.'
       unjail: 
         one: '&c&l¡Oh no!\n&7La bestia ha sido liberada.'
-        more: '&c&l¡Oh no!\n&7Las bestias han sido liberada.'
+        more: '&c&l¡Oh no!\n&7Las bestias han sido liberadas.'
       death:
         one: '&c¡Atención!\n&7La bestia ha muerto.'
         more: '&c¡Atención!\n&7Una de las bestias ha muerto.'
