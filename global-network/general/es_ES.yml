@@ -73,3 +73,12 @@ visibility:
   ALL: "&aTodos"
   RANKS: "&6Solo rangos"
   NOBODY: "&cNadie"
+
+core:
+  cloud:
+    group:
+      none: '&c¡No hay servidores disponibles en este momento!'
+    status:
+      available: '{prefix} &eClick para conectar'
+      maintenance: '&cServidor en mantenimiento'
+      unavailable: '&cNo hay servidores disponibles'  

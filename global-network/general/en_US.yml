@@ -72,3 +72,12 @@ visibility:
   ALL: "&aAll"
   RANKS: "&6Only ranks"
   NOBODY: "&cNobody"
+
+core:
+  cloud:
+    group:
+      none: '&cThere is no servers available.'
+    status:
+      available: '{prefix} &eClick to join'
+      maintenance: '&cServer in maintenance'
+      unavailable: '&cNo available servers at moment.'
