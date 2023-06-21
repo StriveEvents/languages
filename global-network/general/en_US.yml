@@ -78,6 +78,6 @@ core:
     group:
       none: '&cThere is no servers available.'
     status:
-      available: '{prefix} &eClick to join'
+      available: '&eClick to join'
       maintenance: '&cServer in maintenance'
       unavailable: '&cNo available servers at moment.'
