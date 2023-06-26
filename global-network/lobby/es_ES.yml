@@ -19,7 +19,7 @@ npcs:
     line1: '&b&lArenaPvP&f ▏ &e%core_online_arena-pvp,arena-pvp-game%'
     line2: '%core_bar_arena-pvp,arena-pvp-game%'
   uhc:
-    line1: '&b&lUHC&f ▏ &e%uhc-lobby,uhc-game%'
+    line1: '&b&lUHC&f ▏ &e%core_online_uhc-lobby,uhc-game%'
     line2: '%core_bar_uhc-lobby,uhc-game%'        
   profile:
     line1: '&b&lTu perfil'
