@@ -13,13 +13,13 @@ scoreboard:
       
 npcs:
   skywars:
-    line1: '&b&lSkyWars&f ▏ &e%core_online_sky-wars,sky-wars-game%'
+    line1: '&b&lSkyWars&r ▏ &e%core_online_sky-wars,sky-wars-game%'
     line2: '&8[%core_bar_sky-wars,sky-wars-game%&8]'
   arenapvp:
-    line1: '&b&lArenaPvP&f ▏ &e%core_online_arena-pvp,arena-pvp-game%'
+    line1: '&b&lArenaPvP&r ▏ &e%core_online_arena-pvp,arena-pvp-game%'
     line2: '&8[%core_bar_arena-pvp,arena-pvp-game%&8]'
   uhc:
-    line1: '&b&lUHC&f ▏ &e%core_online_uhc-lobby,uhc-game%'
+    line1: '&b&lUHC&r ▏ &e%core_online_uhc-lobby,uhc-game%'
     line2: '&8[%core_bar_uhc-lobby,uhc-game%&8]'      
   profile:
     line1: '&b&lTu perfil'
