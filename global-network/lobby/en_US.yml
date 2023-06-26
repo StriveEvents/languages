@@ -1,5 +1,5 @@
 scoreboard:
-  title: '%core_fading_FrozzMC_55FFFF_FFFFFF% &8(&7%server_online%&8)'
+  title: '%core_fading_SpreenPvP_55FFFF_FFFFFF% &8(&7%core_online_lobby%&8)'
   lines: |-
       &a
       &e ● &f%player_name%
@@ -7,42 +7,37 @@ scoreboard:
       &f Rank: %luckperms_primary_group_name%
       &f Ping: &e%player_ping%
       &a
-      &f Lobby: &a#%cloudnet_service_id%
+      &f Lobby: &a#%core_server_id%
       &a
-      &eplay.frozzmc.us
+      &epvp.spreen.world
       
 npcs:
   skywars:
-    line1: '&b&lSkyWars'
-    line2: '&e0 &7playing'
-  bedwars:
-    line1: '&b&lBedWars'
-    line2: '&e0 &7playing'
-  thebridge:
-    line1: '&b&lTheBridge'
-    line2: '&e0 &7playing'
-  practice:
-    line1: '&b&lPractice'
-    line2: '&e0 &7playing'
-  creative:
-    line1: '&b&lCreative'
-    line2: '&e0 &7playing'
-  survival-custom:
-    line1: '&b&lSurvival Custom'
-    line2: '&e0 &7playing'         
+    line1: '&b&lSkyWars&f ▏ &e%core_online_sky-wars,sky-wars-game%'
+    line2: '%core_bar_sky-wars,sky-wars-game%'
+  arenapvp:
+    line1: '&b&lArenaPvP&f ▏ &e%core_online_arena-pvp,arena-pvp-game%'
+    line2: '%core_bar_arena-pvp,arena-pvp-game%'
+  uhc:
+    line1: '&b&lUHC&f ▏ &e%uhc-lobby,uhc-game%'
+    line2: '%core_bar_uhc-lobby,uhc-game%'        
+  profile:
+    line1: '&b&lYour profile'
+    line2: '&7(Click to more options)'
+
+general:
+  offline: '&cOffline'
 
 tab:
   header: |-
-    &7
-    &b&lFrozz&f&lMC Network&7
-    play.frozzmc.us
-    &7
-    &7Welcome to &b&lFrozz&7!
+    &7                                                                                  &a
+    &5&lSpreen &e&lPvP&f&l Network
+    &81.7.10 - 1.20.X
     &7
   footer: |-
     
-    &9&lDiscord:&f dc.frozzmc.us
-    &a&lShop:&f store.frozzmc.us
-    &b&lTwitter:&f @frozzmcus
+    &9&lDiscord:&f discord.gg/spreen
+    &a&lShop:&f SOON
+    &b&lTwitter:&f @spreenstudios
     
     &7Play with &f%bungee_total% &7more players in our gamemodes.
