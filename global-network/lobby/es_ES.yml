@@ -7,7 +7,7 @@ scoreboard:
       &f Rango: %luckperms_primary_group_name%
       &f Ping: &e%player_ping%
       &a
-      &f Lobby: &a#%core_server_id%
+      &f Lobby: &a#%core_server-id%
       &a
       &epvp.spreen.world
       
