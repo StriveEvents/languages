@@ -64,6 +64,9 @@ onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'
 playerNotExist: '{prefix}&c¡Ese jugador no existe!'
 
+messages:
+  alreadyConnected: '{prefix}&c¡Ya estás conectado a ese servidor!'
+
 menus:
   not-exist: '{prefix}&cEse menú no existe!'
 

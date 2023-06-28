@@ -66,6 +66,9 @@ playerNotExist: '{prefix}&cThat player does''nt exist!'
 menus:
   not-exist: '{prefix}&cThat menu doesn''t exists!'
 
+messages:
+  alreadyConnected: '{prefix}&cYou''re already connected to that server!'  
+
 error: '&4Error!'
 
 visibility:
