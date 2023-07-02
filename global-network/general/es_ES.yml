@@ -51,6 +51,23 @@ commands:
       self: '{prefix}&7Tu modo de juego ha cambiado a &a{mode}&7.'
       other: '{prefix}&7Has cambiado el modo de juego de &e{player}&7 a &a{mode}&7.'    
       all: '{prefix}&7Has cambiado el modo de juego de &etodos&7 a &a{mode}&7.'    
+  coins:
+    give:
+      self: '{prefix}&7¡&e%s &7monedas agregadas a tu balance!'
+      other: '{prefix}&7Añadiste &e%s&7 monedas al balance de &b%s&7.'
+    get:
+      self: '{prefix}&7Tu balance es de &e%s &7monedas.'
+      other: '{prefix}&7El balance de &b%s&7 es de &e%s&7.'
+    remove:
+      self: '{prefix}&7¡&e%s &7monedas han sido removidas de tu balance!'
+      other: '{prefix}&7Se han removido &e%s&7 monedas del balance de &b%s&7.'    
+    set:
+      self: '{prefix}&7¡&e%s &7monedas han sido establecidas como tu balance!'
+      other: '{prefix}&7Estableciste en &e%s&7 monedas el balance de &b%s&7.'      
+
+economy:
+  add: '{prefix}&a&l+&b %s &fSpreenCoins'
+  remove: '{prefix}&c&l-&b %s &fSpreenCoins'        
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    

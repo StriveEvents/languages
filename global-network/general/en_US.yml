@@ -50,6 +50,23 @@ commands:
       self: '{prefix}&7Your gamemode has been updated to &a{mode}&7.'
       other: '{prefix}&7You has been update the gamemode of &e{player}&7 to &a{mode}&7.'
       all: '{prefix}&7You has been update the gamemode of &eall&7 to &a{mode}&7.'
+  coins:
+    give:
+      self: '{prefix}&e%s &7coins added to your balance!'
+      other: '{prefix}&7You''ve added &e%s&7 coins to &b%s&7'' balance.'
+    get:
+      self: '{prefix}&7Your balance is &e%s &7coins.'
+      other: '{prefix}&b%s&7'' balance is &e%s&7.'
+    remove:
+      self: '{prefix}&e%s &7coins taken from your balance!'
+      other: '{prefix}&7You''ve taken &e%s&7 coins from &b%s&7'' balance.'    
+    set:
+      self: '{prefix}&e%s &7coins setted into your balance!'
+      other: '{prefix}&7You''ve set &e%s&7 coins into &b%s&7'' balance.'      
+
+economy:
+  add: '{prefix}&a&l+&b %s &fSpreenCoins'
+  remove: '{prefix}&c&l-&b %s &fSpreenCoins'      
 
 items:
   cooldown: '{prefix}&cYou need to wait <time> seconds!'
