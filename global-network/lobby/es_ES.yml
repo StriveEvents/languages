@@ -6,6 +6,8 @@ scoreboard:
       &a
       &f Rango: %luckperms_primary_group_name%
       &f Ping: &e%player_ping%
+      &f
+      &f SpreenCoins: &b%core_coins%
       &a
       &f Lobby: &a#%core_server-id%
       &a
