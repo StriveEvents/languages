@@ -52,6 +52,10 @@ commands:
       other: '{prefix}&7Has cambiado el modo de juego de &e{player}&7 a &a{mode}&7.'    
       all: '{prefix}&7Has cambiado el modo de juego de &etodos&7 a &a{mode}&7.'    
   coins:
+    help: |-
+      &7 /core money add <jugador> <cantidad>.
+      &7 /core money remove <jugador> <cantidad>.
+      &7 /core money set <jugador> <cantidad>.    
     give:
       self: '{prefix}&7¡&e%s &7monedas agregadas a tu balance!'
       other: '{prefix}&7Añadiste &e%s&7 monedas al balance de &b%s&7.'

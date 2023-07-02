@@ -51,6 +51,10 @@ commands:
       other: '{prefix}&7You has been update the gamemode of &e{player}&7 to &a{mode}&7.'
       all: '{prefix}&7You has been update the gamemode of &eall&7 to &a{mode}&7.'
   coins:
+    help: |-
+      &7 /core money add <player> <amount>.
+      &7 /core money remove <player> <amount>.
+      &7 /core money set <player> <amount>.
     give:
       self: '{prefix}&e%s &7coins added to your balance!'
       other: '{prefix}&7You''ve added &e%s&7 coins to &b%s&7'' balance.'
