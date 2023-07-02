@@ -67,7 +67,8 @@ commands:
 
 economy:
   add: '{prefix}&a&l+&b %s &fSpreenCoins'
-  remove: '{prefix}&c&l-&b %s &fSpreenCoins'        
+  remove: '{prefix}&c&l-&b %s &fSpreenCoins'   
+  set: '{prefix}&6&l=&b %s &fSpreenCoins'     
 
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    
