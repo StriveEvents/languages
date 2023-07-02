@@ -85,6 +85,7 @@ onlyPlayers: '&c¡Esta opción es solo para jugadores!'
 onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'
 playerNotExist: '{prefix}&c¡Ese jugador no existe!'
+onlyIntegers: '{prefix}&cDebes escribir un número para ejecutar este comando.'
 
 messages:
   alreadyConnected: '{prefix}&c¡Ya estás conectado a ese servidor!'

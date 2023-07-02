@@ -84,6 +84,7 @@ onlyPlayers: '&cThat option is only for players!'
 onlyConsole: '&cThat option is only for players!'
 commandNotExist: '&cThat command doesn''t exist!'
 playerNotExist: '{prefix}&cThat player does''nt exist!'
+onlyIntegers: '{prefix}&cYou need to write an integer to execute this command.'
 
 menus:
   not-exist: '{prefix}&cThat menu doesn''t exists!'
