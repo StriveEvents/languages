@@ -74,6 +74,9 @@ economy:
   remove: '{prefix}&c&l-&b %s &fSpreenCoins'   
   set: '{prefix}&6&l=&b %s &fSpreenCoins'     
 
+language:
+  changed: '{prefix}&fTu idioma ha cambiado a &e%s&f.'  
+
 items:
   cooldown: '{prefix}&c¡Debes esperar <time> segundos!'    
 
