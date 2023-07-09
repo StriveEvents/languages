@@ -11,7 +11,7 @@ scoreboard:
       &a
       &f Lobby: &a#%core_server-id%
       &a
-      &epvp.spreen.world
+      &etwitch.tv/elspreen
       
 npcs:
   skywars:
