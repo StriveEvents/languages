@@ -163,7 +163,7 @@ menus:
           &7be quick to gather resources
           &7and fight to be the winner.
           &f
-          &fPlayers Online: &5%core_online_uhc-game,uhc%
+          &fPlayers Online: &5%core_online_uhc-game,uhc-lobby%
           &8[%core_bar_uhc-lobby,uhc-game%&8]
       edlb:
         name: "&a&lEscape the Beast"

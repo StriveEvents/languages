@@ -163,7 +163,7 @@ menus:
           &7ser rápido para obtener los recursos
           &7y poder luchar para ser el ganador.
           &f
-          &fConectados: &5%core_online_uhc-game,uhc%
+          &fConectados: &5%core_online_uhc-game,uhc-lobby%
           &8[%core_bar_uhc-lobby,uhc-game%&8]
       edlb:
         name: "&a&lEscapa de la Bestia"
