@@ -11,7 +11,7 @@ scoreboard:
       &a
       &f Lobby: &a#%core_server-id%
       &a
-      &etwitch.tv/elspreen
+      &estatspvp.gg
       
 npcs:
   skywars:
@@ -39,7 +39,7 @@ general:
 tab:
   header: |-
     &7                                                                                  &a
-    &5&lSpreen &e&lPvP&f&l Network
+    &e&lStats&7&lPvP&f&l Network
     &81.7.10 - 1.20.X
     &7
   footer: |-
