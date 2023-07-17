@@ -1,5 +1,5 @@
 scoreboard:
-  title: '%core_fading_SpreenPvP_55FFFF_FFFFFF% &8(&7%bungee_total%&8)'
+  title: '%core_fading_StatsPvP_55FFFF_FFFFFF% &8(&7%bungee_total%&8)'
   lines: |-
       &a
       &e ● &f%player_name%
