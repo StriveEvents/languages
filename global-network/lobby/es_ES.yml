@@ -96,7 +96,7 @@ menus:
         &f Cierra el menú actual.
         &f
   selector:
-    title: '&5&lSPW&0 » Modalidades'
+    title: '&e&lS&7&lP&0 » Modalidades'
     items:
       #otheritems
       info:
@@ -188,7 +188,7 @@ menus:
           &fConectados: &5%core_online_death-run,death-run-game%
           &8[%core_bar_death-run,death-run-game%&8]
   profile:
-    title: '&5&lSPW&0 » Perfil de usuario'
+    title: '&e&lS&7&lP&0 » Perfil de usuario'
     items:
       #otheritems
       player:
@@ -239,7 +239,7 @@ menus:
       next:
         name: '&9Lobbies &b»'          
   settings:
-    title: '&5&lSPW&0 » Tus ajustes'
+    title: '&e&lS&7&lP&0 » Tus ajustes'
     items:
       #otheritems
       visibility:
@@ -396,7 +396,7 @@ menus:
       prev:
         name: '&b« &cPerfil'       
   lobbies:
-    title: '&5&lSPW&0 » Vestíbulos'
+    title: '&e&lS&7&lP&0 » Vestíbulos'
     items:
       prevPage: 
         name: '&7Página anterior &f({actualPage}/{maxPages})'

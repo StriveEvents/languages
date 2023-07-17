@@ -96,7 +96,7 @@ menus:
         &f Closes the current menu.
         &f
   selector:
-    title: '&5&lSPW&0 » Game Modes'
+    title: '&e&lS&7&lP&0 » Game Modes'
     items:
       #otheritems
       info:
@@ -187,7 +187,7 @@ menus:
           &fPlayers Online: &5%core_online_death-run,death-run-game%
           &8[%core_bar_death-run,death-run-game%&8]
   profile:
-    title: '&5&lSPW&0 » User Profile'
+    title: '&e&lS&7&lP&0 » User Profile'
     items:
       #otheritems
       player:
@@ -238,7 +238,7 @@ menus:
       next:
         name: '&9Lobbies &b»' 
   settings:
-    title: '&5&lSPW&0 » Your Settings'
+    title: '&e&lS&7&lP&0 » Your Settings'
     items:
       #otheritems
       visibility:
@@ -395,7 +395,7 @@ menus:
       prev:
         name: '&b« &cProfile'        
   lobbies:
-    title: '&5&lSPW&0 » Lobbies'
+    title: '&e&lS&7&lP&0 » Lobbies'
     items:
       prevPage: 
         name: '&7Previous Page &f({actualPage}/{maxPages})'
