@@ -39,7 +39,7 @@ general:
 tab:
   header: |-
     &7                                                                                  &a
-    &e&lStats&7&lPvP&f&l Network
+    &c&lStats&f&lPvP
     &81.7.10 - 1.20.X
     &7
   footer: |-
@@ -96,7 +96,7 @@ menus:
         &f Closes the current menu.
         &f
   selector:
-    title: '&e&lS&7&lP&0 » Game Modes'
+    title: '&c&lS&f&lP&0 » Game Modes'
     items:
       #otheritems
       info:
@@ -107,10 +107,10 @@ menus:
           &7 information about the network.
           &f
         message: |-
-          &f             &5&lSpreen &e&lPvP &f&lNetwork
+          &f                 &c&lStats&f&lPvP
           &7
-          &7     SpreenPvP is a server dedicated to
-          &7  the PvP community of SpreenDMC, here you can
+          &7     StatsPvP is a server dedicated to
+          &7  the PvP community of all time, here you can
           &7  meet people and enjoy the various
           &7    game modes we've created with much
           &7               love just for you <3.
@@ -187,7 +187,7 @@ menus:
           &fPlayers Online: &5%core_online_death-run,death-run-game%
           &8[%core_bar_death-run,death-run-game%&8]
   profile:
-    title: '&e&lS&7&lP&0 » User Profile'
+    title: '&c&lS&f&lP&0 » User Profile'
     items:
       #otheritems
       player:
@@ -238,7 +238,7 @@ menus:
       next:
         name: '&9Lobbies &b»' 
   settings:
-    title: '&e&lS&7&lP&0 » Your Settings'
+    title: '&c&lS&f&lP&0 » Your Settings'
     items:
       #otheritems
       visibility:
@@ -395,7 +395,7 @@ menus:
       prev:
         name: '&b« &cProfile'        
   lobbies:
-    title: '&e&lS&7&lP&0 » Lobbies'
+    title: '&c&lS&f&lP&0 » Lobbies'
     items:
       prevPage: 
         name: '&7Previous Page &f({actualPage}/{maxPages})'
