@@ -67,6 +67,16 @@ commands:
     set:
       self: '{prefix}&e%s &7coins setted into your balance!'
       other: '{prefix}&7You''ve set &e%s&7 coins into &b%s&7'' balance.'      
+  nick:
+    help: |-
+      &c /nick &8- &7Opens the menu to change your nickname.
+      &c /nick <name> &8- &7Sets your nickname to a specific name.
+      &c /nick clear &8- &7Removes your current nickname and reverts to your original name.
+    notNicked: '{prefix}&cYou are not using a nickname at the moment.'
+    setNick: '{prefix}&7Your nickname has been set to: &e%s&7.'
+    clear: '{prefix}&cYou have removed your nickname and reverted to your original name.'
+    isNicked: '{prefix}&cYou are already nicked at the moment.'
+    invalidNick: '{prefix}&cThe provided nickname does not meet the requirements. (Between 3 and 16 characters, letters, numbers, or hyphens)'      
 
 economy:
   add: '{prefix}&a&l+&b %s &fSpreenCoins'
@@ -96,6 +106,9 @@ messages:
   alreadyConnected: '{prefix}&cYou''re already connected to that server!'  
 
 error: '&4Error!'
+
+nicked:
+  actionbar: '&fYou are currently &cNICKED&f.'
 
 visibility:
   ALL: "&aAll"

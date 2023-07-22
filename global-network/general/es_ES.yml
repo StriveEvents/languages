@@ -76,6 +76,7 @@ commands:
     notNicked: '{prefix}&cNo estás usando un nick en este momento.'
     setNick: '{prefix}&7Tu nick ha sido establecido en: &e%s&7.'
     clear: '{prefix}&cHas removido tu nick y vuelves a ser tu.'
+    isNicked: '{prefix}&cYa estás disfrazado actualmente.'
     invalidNick: '{prefix}&cEl nick proporcionado no cumple con los requisitos. (Entre 3 y 16 caracteres, letras, números o guiones)'
 
 economy:
@@ -109,7 +110,7 @@ menus:
 error: '&4¡Error!'
 
 nicked:
-  actionbar: '&fEstás usando un &cNICK&f.'
+  actionbar: '&fActualmente estás &cDISFRAZADO&f.'
 
 visibility:
   ALL: "&aTodos"
