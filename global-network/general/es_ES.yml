@@ -67,7 +67,16 @@ commands:
       other: '{prefix}&7Se han removido &e%s&7 monedas del balance de &b%s&7.'    
     set:
       self: '{prefix}&7¡&e%s &7monedas han sido establecidas como tu balance!'
-      other: '{prefix}&7Estableciste en &e%s&7 monedas el balance de &b%s&7.'      
+      other: '{prefix}&7Estableciste en &e%s&7 monedas el balance de &b%s&7.'  
+  nick:
+    help: |-
+      &c /nick &8- &7Abre el menú para cambiar de nick.
+      &c /nick <nombre> &8- &7Cambia a un nick específico.
+      &c /nick clear &8- &7Remueve tu nick actual.
+    notNicked: '{prefix}&cNo estás usando un nick en este momento.'
+    setNick: '{prefix}&7Tu nick ha sido establecido en: &e%s&7.'
+    clear: '{prefix}&cHas removido tu nick y vuelves a ser tu.'
+    invalidNick: '{prefix}&cEl nick proporcionado no cumple con los requisitos. (Entre 3 y 16 caracteres, letras, números o guiones)'
 
 economy:
   add: '{prefix}&a&l+&b %s &fSpreenCoins'
@@ -89,6 +98,7 @@ onlyConsole: '&c¡Esta opción es solo para consola!'
 commandNotExist: '&c¡Ese comando no existe!'
 playerNotExist: '{prefix}&c¡Ese jugador no existe!'
 onlyIntegers: '{prefix}&cDebes escribir un número para ejecutar este comando.'
+maintenance: '{prefix}&cEn desarrollo o mantenimiento.'
 
 messages:
   alreadyConnected: '{prefix}&c¡Ya estás conectado a ese servidor!'
