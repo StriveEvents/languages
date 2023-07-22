@@ -108,6 +108,9 @@ menus:
 
 error: '&4¡Error!'
 
+nicked:
+  actionbar: '&fEstás usando un &cNICK&f.'
+
 visibility:
   ALL: "&aTodos"
   RANKS: "&6Solo rangos"
