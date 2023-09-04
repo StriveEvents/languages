@@ -80,9 +80,9 @@ commands:
     invalidNick: '{prefix}&cEl nick proporcionado no cumple con los requisitos. (Entre 3 y 16 caracteres, letras, números o guiones)'
 
 economy:
-  add: '{prefix}&a&l+&b %s &fSpreenCoins'
-  remove: '{prefix}&c&l-&b %s &fSpreenCoins'   
-  set: '{prefix}&6&l=&b %s &fSpreenCoins'     
+  add: '{prefix}&a&l+&b %s &fCoins'
+  remove: '{prefix}&c&l-&b %s &fCoins'   
+  set: '{prefix}&6&l=&b %s &fCoins'     
 
 language:
   changed: '{prefix}&fTu idioma ha cambiado a &e%s&f.'  

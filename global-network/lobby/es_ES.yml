@@ -7,7 +7,7 @@ scoreboard:
       &f Rango: %luckperms_primary_group_name%
       &f Ping: &e%player_ping%
       &f
-      &f SpreenCoins: &b%core_coins%
+      &f Coins: &b%core_coins%
       &a
       &f Lobby: &a#%core_server-id%
       &a
@@ -44,9 +44,8 @@ tab:
     &7
   footer: |-
     
-    &9&lDiscord:&f discord.gg/spreen
-    &a&lTienda:&f PRONTO
-    &b&lTwitter:&f @SpreenStudios
+    &9&lWeb:&f statspvp.gg
+    &b&lTwitter:&f @StatsPvP_
     
     &7Juega con &f%bungee_total% &7jugadores más en nuestros modos de juego.
 
@@ -202,7 +201,7 @@ menus:
           &8Global:
           &7 Nivel: &d0
           &7 Experiencia: &f0xp
-          &7 SpreenCoins: &b%core_coins%
+          &7 Coins: &b%core_coins%
           &7
           &8Cosméticos:
           &7 Cajas: &e0
