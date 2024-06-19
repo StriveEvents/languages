@@ -76,7 +76,17 @@ commands:
     setNick: '{prefix}&7Your nickname has been set to: &e%s&7.'
     clear: '{prefix}&cYou have removed your nickname and reverted to your original name.'
     isNicked: '{prefix}&cYou are already nicked at the moment.'
-    invalidNick: '{prefix}&cThe provided nickname does not meet the requirements. (Between 3 and 16 characters, letters, numbers, or hyphens)'      
+    invalidNick: '{prefix}&cThe provided nickname does not meet the requirements. (Between 3 and 16 characters, letters, numbers, or hyphens)'
+  speed:
+    help: |-
+      &7 /speed help &8- &7Shows this help message.
+      &7 /speed reset &8- &7Resets all speeds at your default speed.
+      &7 /speed <0-10> [player] &8- &7Change your speed or others.
+    reset: '{prefix}&aYour speed has been resetted.'
+    invalidSpeed: '{prefix}&cPlease, provide a valid speed amount.'
+    setSpeedOther: '{prefix}&7You''ve changed speed to &e%s&7 for &b%s&7.'
+    setFlySpeed: '{prefix}&7Your &eflying &7speed has been changed to &b%s&7.'
+    setWalkSpeed: '{prefix}&7Your &ewalking &7speed has been changed to &b%s&7.'
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'
