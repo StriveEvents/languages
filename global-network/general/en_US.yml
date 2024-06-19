@@ -83,6 +83,7 @@ commands:
       &7 /speed reset &8- &7Resets all speeds at your default speed.
       &7 /speed <0-10> [player] &8- &7Change your speed or others.
     reset: '{prefix}&aYour speed has been resetted.'
+    resetOther: '{prefix}&7You''ve back to normal speed of &b%s&7.'
     invalidSpeed: '{prefix}&cPlease, provide a valid speed amount.'
     setSpeedOther: '{prefix}&7You''ve changed speed to &e%s&7 for &b%s&7.'
     setFlySpeed: '{prefix}&7Your &eflying &7speed has been changed to &b%s&7.'
