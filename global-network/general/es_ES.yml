@@ -78,6 +78,16 @@ commands:
     clear: '{prefix}&cHas removido tu nick y vuelves a ser tu.'
     isNicked: '{prefix}&cYa estás disfrazado actualmente.'
     invalidNick: '{prefix}&cEl nick proporcionado no cumple con los requisitos. (Entre 3 y 16 caracteres, letras, números o guiones)'
+  speed:
+    help: |-
+      &7 /speed help &8- &7Muestra esta ayuda.
+      &7 /speed reset &8- &7Regresa todas las velocidades a las predeterminadas.
+      &7 /speed <0-10> [player] &8- &7Cambia tu velocidad o la de otro.
+    reset: '{prefix}&aTu velocidad ha sido restaurada a la predeterminada.'
+    invalidSpeed: '{prefix}&cPor favor, ingresa una cantidad de velocidad válida.'
+    setSpeedOther: '{prefix}&7Cambiaste la velocidad a &e%s&7 de &b%s&7.'
+    setFlySpeed: '{prefix}&7Tu velocidad de &evuelo &7ha sido cambiada a &b%s&7.'
+    setWalkSpeed: '{prefix}&7Tu velocidad de &ecaminado &7ha sido cambiado a &b%s&7.'    
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'
