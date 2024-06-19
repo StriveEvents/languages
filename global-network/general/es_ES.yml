@@ -84,6 +84,7 @@ commands:
       &7 /speed reset &8- &7Regresa todas las velocidades a las predeterminadas.
       &7 /speed <0-10> [player] &8- &7Cambia tu velocidad o la de otro.
     reset: '{prefix}&aTu velocidad ha sido restaurada a la predeterminada.'
+    resetOther: '{prefix}&7Regresaste a la normalidad las velocidades de &b%s&7.'
     invalidSpeed: '{prefix}&cPor favor, ingresa una cantidad de velocidad válida.'
     setSpeedOther: '{prefix}&7Cambiaste la velocidad a &e%s&7 de &b%s&7.'
     setFlySpeed: '{prefix}&7Tu velocidad de &evuelo &7ha sido cambiada a &b%s&7.'
