@@ -89,6 +89,15 @@ commands:
     setSpeedOther: '{prefix}&7Cambiaste la velocidad a &e%s&7 de &b%s&7.'
     setFlySpeed: '{prefix}&7Tu velocidad de &evuelo &7ha sido cambiada a &b%s&7.'
     setWalkSpeed: '{prefix}&7Tu velocidad de &ecaminado &7ha sido cambiado a &b%s&7.'    
+  warp:
+    help: |-
+      &7 /core warp - &eMuestra una lista de los warps disponibles.
+      &7 /core warp <warp> - &eTeletransportate a un warp.
+    tp: '{prefix}&7Has sido teletransportado a &e{warp}&7.' 
+  setwarp:
+    help: '&7 /core setwarp <warp> - &eGuarda un nuevo warp.'
+  delwarp:
+    help: '&7 /core delwarp <warp> - &eElimina un warp existente.'    
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'
