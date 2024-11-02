@@ -89,14 +89,18 @@ commands:
     setFlySpeed: '{prefix}&7Your &eflying &7speed has been changed to &b%s&7.'
     setWalkSpeed: '{prefix}&7Your &ewalking &7speed has been changed to &b%s&7.'
   warp:
+    notFound: '{prefix}&cThat warp not exists.'
     help: |-
       &7 /warp - &eGet a warp list to tp.
       &7 /warp <warp> - &eTeleport to warp location.
     tp: '{prefix}&7You''ve been teleported to &e{warp}&7.'
   setwarp:
     help: '&7 /setwarp <warp> - &eSave a new warp location.'
+    alreadyExists: '{prefix}&cThat warp already exists.'
+    success: '{prefix}&7Warp {warp} successfully saved.'
   delwarp:
     help: '&7 /delwarp <warp> - &eRemove an existing warp location.'    
+    sucess: '{prefix}&7Warp {warp} was successfully deleted.'
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'
