@@ -90,14 +90,18 @@ commands:
     setFlySpeed: '{prefix}&7Tu velocidad de &evuelo &7ha sido cambiada a &b%s&7.'
     setWalkSpeed: '{prefix}&7Tu velocidad de &ecaminado &7ha sido cambiado a &b%s&7.'    
   warp:
+    notFound: '{prefix}&cEse warp no existe.'
     help: |-
       &7 /warp - &eMuestra una lista de los warps disponibles.
       &7 /warp <warp> - &eTeletransportate a un warp.
     tp: '{prefix}&7Has sido teletransportado a &e{warp}&7.' 
   setwarp:
     help: '&7 /setwarp <warp> - &eGuarda un nuevo warp.'
+    alreadyExists: '{prefix}&cEse warp ya existe'
+    success: '{prefix}&7Warp {warp} guardado correctamente.'
   delwarp:
-    help: '&7 /delwarp <warp> - &eElimina un warp existente.'    
+    help: '&7 /delwarp <warp> - &eElimina un warp existente.'
+    success: '{prefix}&7Warp {warp} eliminado correctamente.'
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'

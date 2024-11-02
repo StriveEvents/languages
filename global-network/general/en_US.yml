@@ -100,7 +100,7 @@ commands:
     success: '{prefix}&7Warp {warp} successfully saved.'
   delwarp:
     help: '&7 /delwarp <warp> - &eRemove an existing warp location.'    
-    sucess: '{prefix}&7Warp {warp} was successfully deleted.'
+    success: '{prefix}&7Warp {warp} was successfully deleted.'
 
 economy:
   add: '{prefix}&a&l+&b %s &fCoins'
