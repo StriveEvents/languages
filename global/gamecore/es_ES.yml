@@ -1,0 +1,5 @@
+staff:
+  vanish:
+    bar: "ESTÁS OCULTO DE OTROS JUGADORES" 
+    'on': "{prefix}&7Has &aentrado &7en modo oculto."
+    'off': "{prefix}&7Has &csalido &7del modo oculto."
