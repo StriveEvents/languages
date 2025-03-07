@@ -3,3 +3,6 @@ staff:
     bar: "YOU'RE HIDDEN FROM OTHER PLAYERS"
     'on': "{prefix}&7You've &ajoined &7into vanish mode."
     'off': "{prefix}&7You've &cleft &7vanish mode."
+
+purge:
+  notEnoughPlayers: "{prefix}There are not enough players to do the purge."
